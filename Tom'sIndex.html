@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UFO Sightings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background:white;">
+  <div class="container" style="background:white;">
+    <img src= "https://github.com/tdimare/JavaScript-DOM-Manipulation/blob/master/UFO%234.gif?raw=true" alt="UFO Sightings" style="height: 400px;" class="center">
+    <!-- <div class="jumbotron text-center" style="background-image: url(https://github.com/tdimare/JavaScript-DOM-Manipulation/blob/master/pentagon-ufo-program.jpg?raw=true);height: 400px; background-position: center; background-size: cover;"> -->
+  <!-- </img> -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="date" placeholder="Date, City, State...">
+          <a id="search" class="btn btn-default">Lift Off</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thread>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Comments</th>
+            </tr>
+          </thread>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
